@@ -6,8 +6,9 @@ function twoSum(numArr, sum) {
         const currElement = numArr[i];
         var counterPart = sum - currElement;
         if(hashTable.indexOf(counterPart) !== -1) {
-            pairs.push([ currElement, counterPart]);
+            pairs.push([ currElement, counterPart ]);
         }
+
         hashTable.push(currElement);
     }
 
