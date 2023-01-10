@@ -1,0 +1,23 @@
+{
+    "name": "dsa",
+    "version": "1.0.0",
+    "description": "",
+    "main": "0(n).js",
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/markomeje/dsa.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/markomeje/dsa/issues"
+    },
+    "homepage": "https://github.com/markomeje/dsa#readme",
+    "devDependencies": {
+        "jest": "^29.3.1"
+    }
+}
